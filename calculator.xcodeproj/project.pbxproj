@@ -14,6 +14,7 @@
 		1B008AA71E79DABA0041EABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B008AA51E79DABA0041EABF /* LaunchScreen.storyboard */; };
 		1B008AB21E79DABA0041EABF /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B008AB11E79DABA0041EABF /* calculatorTests.swift */; };
 		1B008ABD1E79DABA0041EABF /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B008ABC1E79DABA0041EABF /* calculatorUITests.swift */; };
+		1B944D441E802FF20077C5E1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B944D431E802FF20077C5E1 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1B008AB81E79DABA0041EABF /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B008ABC1E79DABA0041EABF /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		1B008ABE1E79DABA0041EABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B944D431E802FF20077C5E1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1B008A9B1E79DABA0041EABF /* calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1B944D431E802FF20077C5E1 /* Minecraft.ttf */,
 				1B008A9C1E79DABA0041EABF /* AppDelegate.swift */,
 				1B008A9E1E79DABA0041EABF /* ViewController.swift */,
 				1B008AA01E79DABA0041EABF /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				1B008AA71E79DABA0041EABF /* LaunchScreen.storyboard in Resources */,
 				1B008AA41E79DABA0041EABF /* Assets.xcassets in Resources */,
+				1B944D441E802FF20077C5E1 /* Minecraft.ttf in Resources */,
 				1B008AA21E79DABA0041EABF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				1B008AC31E79DABA0041EABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B008AC41E79DABA0041EABF /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				1B008AC61E79DABA0041EABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B008AC71E79DABA0041EABF /* Build configuration list for PBXNativeTarget "calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				1B008AC91E79DABA0041EABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
