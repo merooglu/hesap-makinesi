@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -249,6 +250,18 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPz-cl-2De">
+                                <rect key="frame" x="131.5" y="560" width="112" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fPz-cl-2De" secondAttribute="height" multiplier="85:38" id="z3g-dQ-AOm"/>
+                                    <constraint firstAttribute="height" constant="50" id="zTE-qT-9y4"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="clear"/>
+                                <connections>
+                                    <action selector="numberPressedWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pOO-zW-aXN"/>
+                                    <action selector="onClearBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wuU-rF-ZkV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -263,6 +276,8 @@
                             <constraint firstAttribute="trailing" secondItem="sTp-pE-Xyb" secondAttribute="trailing" id="kAg-5b-Mcx"/>
                             <constraint firstItem="vUj-wo-rg7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="43" id="n9Z-HS-Acs"/>
                             <constraint firstItem="1ky-nK-SjP" firstAttribute="top" secondItem="pug-nb-XbL" secondAttribute="top" constant="30" id="oBQ-0f-48a"/>
+                            <constraint firstItem="fPz-cl-2De" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qRK-GE-Fq6"/>
+                            <constraint firstItem="fPz-cl-2De" firstAttribute="top" secondItem="pug-nb-XbL" secondAttribute="bottom" constant="5" id="sZx-Ul-afg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sTp-pE-Xyb" secondAttribute="bottom" id="wU7-bJ-eQo"/>
                             <constraint firstItem="mym-8i-SA2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zgD-gy-pea"/>
                         </constraints>
@@ -289,6 +304,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
