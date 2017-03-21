@@ -117,13 +117,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onClearBtnPressed(_ sender: Any) {
-        var runningNumber = ""
-        var leftValStr = ""
-        var rightValStr = ""
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
         var currentOperation: Operation = Operation.Empty
-        var result = ""
+        result = ""
         outputLbl.text = "0"
     }
+    
     
 }
 
